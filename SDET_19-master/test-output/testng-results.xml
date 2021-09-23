@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7350" started-at="2021-08-27T16:26:26 IST" finished-at="2021-08-27T16:26:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7350" started-at="2021-08-27T16:26:26 IST" finished-at="2021-08-27T16:26:34 IST">
+      <class name="com.TestNG.Extent12">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.TestNG.Extent12@196a42c3]" name="setup" is-config="true" duration-ms="187" started-at="2021-08-27T16:26:26 IST" finished-at="2021-08-27T16:26:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.TestNG.Extent12@196a42c3]" name="test1" duration-ms="6520" started-at="2021-08-27T16:26:26 IST" finished-at="2021-08-27T16:26:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.TestNG.Extent12@196a42c3]" name="test2" duration-ms="805" started-at="2021-08-27T16:26:33 IST" finished-at="2021-08-27T16:26:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.TestNG.Extent12@196a42c3]" name="close" is-config="true" duration-ms="1144" started-at="2021-08-27T16:26:34 IST" finished-at="2021-08-27T16:26:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.TestNG.Extent12 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

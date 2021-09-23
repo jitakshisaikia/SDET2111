@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="BROWSER" value="Chrome"/>
+  <listeners>
+    <listener class-name="com.genericutil.ListnerS"/>
+    <listener class-name="com.genericutil.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Vtiger.CreateContactTest">
+        <methods>
+          <include name="setup_JDBC_Report"/>
+          <include name="launchBrowser"/>
+          <include name="logoutVtiger"/>
+          <include name="logintoVtiger"/>
+          <include name="closeBrowser"/>
+          <include name="close_JDBC_Report"/>
+          <include name="createContact"/>
+        </methods>
+      </class> <!-- com.Vtiger.CreateContactTest -->
+      <class name="com.Vtiger.CreateOrgTest">
+        <methods>
+          <include name="setup_JDBC_Report"/>
+          <include name="launchBrowser"/>
+          <include name="logoutVtiger"/>
+          <include name="createOrg_withDD"/>
+          <include name="logintoVtiger"/>
+          <include name="closeBrowser"/>
+          <include name="close_JDBC_Report"/>
+        </methods>
+      </class> <!-- com.Vtiger.CreateOrgTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,6 @@
+<SDET>
+<browser>chrome</browser>
+<username>admin</username>
+<password>manager</password>
+<url>http://localhost:8888</url>
+</SDET>
